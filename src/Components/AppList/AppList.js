@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Tooltip from '../../SubComponents/Tooltip/Tooltip'
 import './AppList.css'
-import { SignalBit, NDS, Process, ManageEmployee, EndLine, FinishLine, PackingLine, Regular, Qr, QrHardware, DefectInOut, Report, Daily, Summary, Dashboard, Factory, Line, NAG } from '../imports'
+import { SignalBit, NDS, Process, ManageEmployee, EndLine, FinishLine, PackingLine, Regular, Qr, QrHardware, DefectInOut, Report, Daily, /*Summary,*/ Dashboard, Factory, Line, NAG } from '../imports'
 import { GrClose } from 'react-icons/gr'
 
 function AppList() {
