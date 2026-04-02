@@ -14,6 +14,10 @@ const router = createBrowserRouter([
     path: "/portal-nag",
     element: <div><List /><Footer /></div>,
   },
+  {
+    path: "/app-list",
+    element: <div><List /><Footer /></div>,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
